@@ -1,3 +1,5 @@
+# There's a blog post about this too, with a bit more explanation: https://victorsanner.nl/2022/02/02/expose-your-synapse-sql-views-as-api.html
+
 # Rest API POC
 This project consists of three components:
 - Azure Function, for translating HTTP requests into SQL queries, and for managing access to the database
