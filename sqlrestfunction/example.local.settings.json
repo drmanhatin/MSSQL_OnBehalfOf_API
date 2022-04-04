@@ -1,0 +1,17 @@
+{
+    "IsEncrypted": false,
+    "Values": {
+      "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
+      "Instance": "https://login.microsoftonline.com/",
+      "Authority": "https://login.microsoftonline.com/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "Domain": "xx.onmicrosoft.com",
+      "TenantId": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+      "ClientId": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+      "ClientSecret": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "DatabaseUrl": "xxxxxsql.azuresynapse.net"
+    },
+    "Host": {
+      "CORS": "*"
+    }
+  }
+  
