@@ -1,5 +1,5 @@
 #### There's a blog post about this too, with a bit more explanation: https://victorsanner.nl/2022/02/02/expose-your-synapse-sql-views-as-api.html
-For a customer I was tasked with figuring out an easy way of exposing some database views as an API. Aside of the usual functionality such as limiting and filtering using parameters, the API should also use the identity of the caller to connect to the database. By doing this, the API can make use of the database row level security functionality, which is a method of keeping track who can access which rows in the database. For example, you can ensure that workers access only those data rows that are pertinent to their department. Another example is to restrict customers’ data access to only the data relevant to their company.
+In this repository you can find code for a proof of concept. This project allows you to expose your MSSQL database views as an API, and use the identity of the API caller to connect to the database.
 
 # Rest API POC
 This project consists of three components:
