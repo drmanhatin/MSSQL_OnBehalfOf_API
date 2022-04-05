@@ -1,4 +1,5 @@
-In this repository you can find code for a proof of concept which allows you to expose your MSSQL database views as an API, and use the identity of the API caller to connect to the database, to take advantage of row level security.
+In this repository you can find code for a proof of concept which allows you to expose your MSSQL database views as an API, and use the identity of the API caller to connect to the database, to take advantage of row level security. This POC is built using Azure Functions and Azure Active Directory.
+
 #### There's a blog post about this too, with a bit more explanation: https://victorsanner.nl/2022/02/02/expose-your-synapse-sql-views-as-api.html
 
 # Rest API POC
