@@ -67,9 +67,9 @@ WebApi is the app registration for the backend. Its permissions look as followin
 
 If you have trouble finding the SQL permissions, you can add them to the backend using this command: 
 
-```az ad app permission add --id 4a655c68-c7ec-4f3d-ab1f-463125368f9a --api 022907d3-0f1b-48f7-badc-1ba6abab6d66 --api-permissions c39ef2d1-04ce-46dc-8b5f-e9a5c60f0fc9=Scope```
+```az ad app permission add --id abcdabda-c7ec-abcd-abcd-asdasdasaas --api 022907d3-0f1b-48f7-badc-1ba6abab6d66 --api-permissions c39ef2d1-04ce-46dc-8b5f-e9a5c60f0fc9=Scope```
 
-Be sure to replace the first id *4a655c68-c7ec-4f3d-ab1f-463125368f9a* with your own client id. You may be prompted to perform a second command to activate the permissions, do so.
+Be sure to replace the first id *abcdabda-c7ec-abcd-abcd-asdasdasaas* with your own client id. You may be prompted to perform a second command to activate the permissions, do so.
 
 After adding these permissions, expose the api:
 
